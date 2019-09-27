@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/running2Fragment"
+        android:icon="@drawable/running1"
+        android:title="@string/running1" />
+
+    <item
+        android:id="@+id/timeFragment"
+        android:icon="@drawable/time"
+        android:title="@string/time" />
+
+
+    <item
+        android:id="@+id/peopleFragment"
+        android:icon="@drawable/people"
+        android:title="@string/people" />
+
+    <item
+        android:id="@+id/startFragment"
+        android:icon="@drawable/star"
+        android:title="@string/star" />
+
+
+
+
+
+</menu>

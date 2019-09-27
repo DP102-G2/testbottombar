@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">testbottombar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shopping">瀏覽商品</string>
+    <string name="shoppingcart">購物車</string>
+    <string name="orderlist">查詢訂單</string>
+    <string name="server">客服</string>
+    <string name="running">運動管家</string>
+    <string name="setting">設定</string>
+    <string name="stroe">商店街首頁</string>
+    <string name="running1">運動</string>
+    <string name="time">統計</string>
+    <string name="people">社群</string>
+    <string name="star">成就</string>
+</resources>

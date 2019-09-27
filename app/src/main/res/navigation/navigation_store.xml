@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/storeFragment">
+
+    <fragment
+        android:id="@+id/storeFragment"
+        android:name="com.example.testbottombar.StoreFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_store" />
+    <fragment
+        android:id="@+id/shoppingcartFragment"
+        android:name="com.example.testbottombar.ShoppingcartFragment"
+        android:label="fragment_shoppingcart"
+        tools:layout="@layout/fragment_shoppingcart" />
+    <fragment
+        android:id="@+id/orderlistFragment"
+        android:name="com.example.testbottombar.OrderlistFragment"
+        android:label="fragment_orderlist"
+        tools:layout="@layout/fragment_orderlist" />
+    <fragment
+        android:id="@+id/serverFragment"
+        android:name="com.example.testbottombar.ServerFragment"
+        android:label="fragment_server"
+        tools:layout="@layout/fragment_server" />
+    <fragment
+        android:id="@+id/running2Fragment"
+        android:name="com.example.testbottombar.Running2Fragment"
+        android:label="fragment_running2"
+        tools:layout="@layout/fragment_running2" />
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="com.example.testbottombar.TimeFragment"
+        android:label="fragment_time"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.example.testbottombar.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.testbottombar.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+
+</navigation>
